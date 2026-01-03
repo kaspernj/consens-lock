@@ -1,0 +1,25 @@
+{
+  "name": "consens-lock-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db:migrate": "velocious db:migrate",
+    "lint": "eslint .",
+    "start": "node src/server.js",
+    "test": "velocious test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "velocious": "^1.0.175"
+  },
+  "devDependencies": {
+    "eslint": "^9.21.0",
+    "eslint-plugin-jsdoc": "^50.6.2"
+  }
+}
