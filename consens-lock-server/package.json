@@ -15,11 +15,12 @@
   "type": "module",
   "dependencies": {
     "sqlite": "^5.1.1",
-    "sqlite3": "^5.1.7",
-    "velocious": "^1.0.175"
+    "sqlite3": "^6.0.1",
+    "velocious": "^1.0.694"
   },
   "devDependencies": {
     "eslint": "^9.21.0",
-    "eslint-plugin-jsdoc": "^50.6.2"
+    "eslint-plugin-jsdoc": "^50.6.2",
+    "@velocious/testing": "^0.0.17"
   }
 }
